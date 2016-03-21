@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+
+<article>
+    <h1><a class="inconspicuous-link" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
+    <p class="date">{{ article.date | strftime('%B %d, %Y') }}</p>
+    {{ article.content }}
+</article>
+
+{% endblock %}

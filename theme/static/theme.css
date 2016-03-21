@@ -1,0 +1,94 @@
+body {
+    color: rgb(51, 51, 50);
+    font-size: 22px;
+    line-height: 1.45;
+    font-family: Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+a {
+    color: rgb(51, 51, 50);
+}
+
+a:hover {
+    /*color: #06e;*/
+    color: #57ad68;
+}
+
+a.inconspicuous-link {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 700px;
+    margin: 0.5em auto 1em auto;
+    padding: 0;
+}
+
+.top {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.top header {
+    float: left;
+}
+
+.top nav {
+    float: right;
+}
+
+.top nav a {
+    margin: 0 4px;
+}
+
+.content {
+    clear: both;
+}
+
+.content article h1 {
+    font-size: 52px;
+    font-family: Lucida Grande, Verdana, sans-serif;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.content article .date {
+    color: #666665;
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+.content article p + ul {
+    margin-top: -1em;  /* don't add empty line between paragraph text and list */
+}
+
+.container footer {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.content .article-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.content .article-list li {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.content .article-list .date {
+    color: #666665;
+    position: absolute;
+    right: 0;
+}
