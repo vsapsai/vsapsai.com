@@ -92,3 +92,10 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     right: 0;
 }
+
+blockquote {
+    color: #666665;
+    border-left: 0.25em solid #ccc;
+    padding-left: 1em;
+    margin-left: 0;
+}
