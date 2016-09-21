@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -1em;  /* don't add empty line between paragraph text and list */
 }
 
+.content article ul {
+    padding-left: 1.25em;  /* == blockquote.padding-left + blockquote.border-left */
+}
+
 .container footer {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 0.8em;
@@ -98,4 +102,5 @@ blockquote {
     border-left: 0.25em solid #ccc;
     padding-left: 1em;
     margin-left: 0;
+    margin-right: 0;
 }
