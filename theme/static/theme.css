@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top nav a {
-    margin: 0 4px;
+    padding-left: 4px;
 }
 
 .content {
@@ -109,4 +109,12 @@ blockquote {
     .content article h1, .content h1 {
         font-size: 1.5em;
     }
+}
+
+@media screen and (max-width: 380px) {
+    .top {
+        font-size: 21px;
+        letter-spacing: -1px;
+        margin-bottom: 0.5em;
+    }    
 }
