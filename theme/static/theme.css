@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    width: 700px;
+    max-width: 700px;
     margin: 0.5em auto 1em auto;
-    padding: 0;
+    padding: 0 0.8em;
 }
 
 .top {
@@ -103,4 +103,10 @@ blockquote {
     padding-left: 1em;
     margin-left: 0;
     margin-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .content article h1, .content h1 {
+        font-size: 1.5em;
+    }
 }
