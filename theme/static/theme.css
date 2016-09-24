@@ -102,6 +102,11 @@ blockquote {
     .content article h1, .content h1 {
         font-size: 1.5em;
     }
+    
+    .content .article-list {
+        font-size: 1.1em;
+        line-height: 1.2;
+    }
 }
 
 @media screen and (max-width: 380px) {
